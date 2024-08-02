@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    
+    
+    position: absolute;     
+    top:30%;
+    left:22%;  
+    flex-direction: column;
+    }
+.container .heading{
+    color: #086DFF;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.container .text{
+
+    width: 377px;
+   font-size: 24px;
+   font: weight 580px;
+   color:#36393B;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main{
+    position: absolute;
+    top:25%;
+    left:54%;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: white;
+    height: 300px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2),-2px -2px 5px rgba(0,0,0,0.2);
+    border-radius: 4px;
+}
+.main .first input{
+    padding: 5px 5px;
+    height: 43px;
+    width: 279px;
+    margin: 10px;
+    border: 1px solid silver;
+    outline: none;
+    border-radius: 4px;
+}
+.main .tarek input{
+    padding: 5px 5px;
+    height: 43px;
+    width: 279px;
+    margin: 10px;
+    border: 1px solid silver;
+    outline: none;
+    border-radius: 4px;
+    margin-top: -2px;
+}
+.main .log input{
+    padding: 5px 5px;
+    height: 43px;
+    width: 279px;
+    margin: 10px;
+   border: none;
+   margin-top: -2px;
+    outline: none;
+    border-radius: 4px;
+    background-color: #086DFF;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.main a{
+    text-decoration: none;
+   text-align: center;
+   color:#086DFF;
+   margin: 5px;
+   
+   
+}
+.main .creat input {
+    padding: 9px -11px;
+    height: 39px;
+    width: 165px;
+    margin: 10px;
+    border: none;
+    margin-top: -2px;
+    outline: none;
+    border-radius: 4px;
+    background-color: #40B825;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 4px;
+    margin-left: 68px;
+}
+
+   
+.line{
+    border-top:1px solid #222;
+    opacity: 0.2;
+    padding: 5px 5px;
+    margin: 10px;
+    
+}
+
+.main .log input:hover{
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2),-2px -2px 5px rgba(0,0,0,0.2);
+}
+
+.main a:hover{
+    text-decoration: underline;
+}
+.main .first input:hover{
+    border: 1px solid rgb(0,0,0);
+}
+.main .tarek input:hover{
+    border: 1px solid rgb(0,0,0);
+}
+
+
+
+.main .creat input:hover {
+
+box-shadow: 2px 2px 5px rgba(0,0,0,0.2),-2px -2px 5px rgba(0,0,0,0.2);}
+
+
+
+
+
